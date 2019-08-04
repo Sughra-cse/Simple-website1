@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 1.em;
+    background-color: aqua;
+    border:saddlebrown solid block;
+}
+nav ul{
+    background-color:grey;
+    display:block;
+    border:1px ;
+}
+nav ul li{
+    font-size: 1.5em;
+    color: chartreuse;
+    cursor:pointer;
+    display:inline-block;
+    padding:15px;
+    margin-left:10px;
+
+}
+ul li:hover{
+    background-color: aquamarine;
+    color:palevioletred;
+}
+h1{
+    text-align: center;
+}
+h2{
+margin-left: 20px;
+}
+.contact{
+    padding:10px;
+    background-color: rgba(138, 16, 122, 0.308);
+    color:white;
+    text-align: center;
+}
+figure{
+   
+    text-align:center;
+    border: 1px whitesmoke solid ;
+}
+ #services{ 
+    display:flex; 
+    border:1px blueviolet solid;
+    padding:20px;
+}
+img{
+    padding:10px;
+}
+.contact button:hover{
+    background-color:rebeccapurple;
+    color:white;
+    cursor: pointer;
+}
+button{
+    background-color: green;
+    color:white;
+}
+h2{
+    color:rebeccapurple;
+}
+.arrow{
+    cursor:pointer;
+    position: absolute;
+    border-style:solid;
+}
+#slider{
+    overflow-x:hidden;
+}
+footer{
+    font-size:1.4em;
+}
+.slide-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:whitesmoke;
+}
+#arrow-left{
+    border-color:transparent red transparent transparent;
+    border-width: 30px ,40px,30px,0px;
+    margin-left:30px;
+    left:0;
+}
+#arrow-right{
+    border-color:transparent red transparent transparent;
+    border-width: 20px ,0px,20px,30px;
+    margin-right:30px;
+    right:0;
+}
+.wrap{
+    position:relative;
+    overflow-x: hidden;
+}
+.slide{
+    background-size: cover;
+    background-position:center;
+    background-repeat: none;
+}
+.slide-1{
+    background-image: url("./lighthouse.jpg");
+}
+.slide-2{
+    background-image: url("./dillon-shook.jpg");
+}
+@media screen and ( max-width:700px ){
+    body{
+    background-color : blue;
+    color:yellow;
+    border-color: purple;
+    }
+    @media screen and ( min-width:500px ){
+        body{
+        background-color : brown;
+        color:yellow;
+        border-color: red;
+        }
+}
